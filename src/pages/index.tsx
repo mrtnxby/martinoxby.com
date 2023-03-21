@@ -59,7 +59,7 @@ export default function Home() {
           <b>I work with</b>:{" "}
           <i>
             React, JavaScript/TypeScript, Node.js, Next.js, HTML5, CSS, Styled
-            Components & GraphQL and more...
+            Components, GraphQL and more...
           </i>
         </p>
         <h3>
@@ -91,14 +91,14 @@ export default function Home() {
             alt="LinkedIn"
           />
         </a>
-        <a className={styles.button} href="mailto:martin.oxby26@gmail.com">
+        <a className={styles.button} href="mailto:martin@oxby.io">
           {" "}
           <Image
             priority
             src="/icons/email.svg"
             height={32}
             width={32}
-            alt="LinkedIn"
+            alt="Email"
           />
         </a>
       </div>
