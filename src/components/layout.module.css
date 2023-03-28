@@ -1,7 +1,20 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 108px);
   max-width: 36rem;
   padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  margin: 3rem auto 3rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-bottom: 0;
+  }
+}
+
+.main {
+  flex: 1;
 }
 
 .header {
@@ -12,4 +25,11 @@
 
 .backToHome {
   margin: 3rem 0 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 24px;
 }
