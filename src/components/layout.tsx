@@ -18,10 +18,7 @@ export default function Layout({ children, home, ...props }: LayoutProps) {
     <div {...props} className={styles.container}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Learn how to build a personal website using Next.js"
-        />
+        <meta name="description" content="Martin Oxby | oxby.io" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
