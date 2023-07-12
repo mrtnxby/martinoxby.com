@@ -1,6 +1,10 @@
 html {
-  background-color: #00563b;
+  background-color: #1b6758;
   color: #ffffff;
+}
+
+::selection {
+  background: #9b59b6;
 }
 
 body {
@@ -27,12 +31,16 @@ body {
 }
 
 a {
-  color: #f1f227;
+  color: #ffd700;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+b {
+  color: #00ff7f;
 }
 
 img {

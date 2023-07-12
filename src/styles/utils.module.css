@@ -6,6 +6,12 @@
   margin: 1rem 0;
 }
 
+@media (max-width: 37.5rem) {
+  .heading2Xl {
+    font-size: 2rem;
+  }
+}
+
 .headingXl {
   font-size: 2rem;
   line-height: 1.3;

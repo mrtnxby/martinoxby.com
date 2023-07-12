@@ -10,7 +10,6 @@ interface LayoutProps {
   home?: Boolean;
 }
 
-const name = "Martin Oxby";
 export const siteTitle = "Martin Oxby | oxby.io";
 
 export default function Layout({ children, home, ...props }: LayoutProps) {
@@ -38,7 +37,9 @@ export default function Layout({ children, home, ...props }: LayoutProps) {
                 width={144}
                 alt="Martin"
               />
-              <h1 className={utilStyles.heading2Xl}>{name}</h1>
+              <h1 className={utilStyles.heading2Xl}>
+                Hi, I&apos;m <b>Martin</b> 👋
+              </h1>
             </>
           ) : (
             <>
@@ -54,7 +55,7 @@ export default function Layout({ children, home, ...props }: LayoutProps) {
               </Link>
               <h2 className={utilStyles.headingLg}>
                 <Link href="/" className={utilStyles.colorInherit}>
-                  {name}
+                  Hi, I&apos;m <b>Martin</b> 👋
                 </Link>
               </h2>
             </>
@@ -66,8 +67,8 @@ export default function Layout({ children, home, ...props }: LayoutProps) {
             <Link href="/">← Back to home</Link>
           </div>
         )}
+        <footer className={styles.footer}>© 2023 🧑🏻‍💻</footer>
       </div>
-      <footer className={styles.footer}>© 2023 🧑🏻‍💻</footer>
     </>
   );
 }

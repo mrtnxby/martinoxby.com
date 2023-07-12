@@ -38,11 +38,9 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hi, I&apos;m <b>Martin</b> 👋
-        </p>
-        <p>
           I&apos;m a software engineer based in London, UK. Currently I&apos;m
-          helping households electrify at <a href="https://zoa.io">zoa.io</a>.
+          helping energy companies become consumer companies at{" "}
+          <a href="https://zoa.io">Zoa</a>.
         </p>
         <p>
           Previously I worked at <a href="https://bulb.co.uk">Bulb</a>, a
@@ -58,7 +56,7 @@ export default function Home() {
           <b>I work with</b>:{" "}
           <i>
             React, JavaScript/TypeScript, Node.js, Next.js, HTML5, CSS, Styled
-            Components, GraphQL and more...
+            Components, Prisma, Jest and more...
           </i>
         </p>
       </section>
