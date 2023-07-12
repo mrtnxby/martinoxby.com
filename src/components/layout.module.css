@@ -1,15 +1,17 @@
 .container {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  min-height: calc(100vh - 108px);
+  min-height: 100vh;
   max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 3rem;
+  padding: 2rem;
+  margin: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   .container {
-    margin-bottom: 0;
+    margin: 0 0;
+    padding: 2rem;
   }
 }
 
@@ -31,5 +33,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 24px 24px;
+  padding: 1.5rem 1.5rem;
+}
+
+@media (max-width: 37.5rem) {
+  .footer {
+    padding: 2rem;
+  }
 }
