@@ -1,0 +1,5 @@
+# Ignore the following:
+package.json
+node_modules
+.next
+public
