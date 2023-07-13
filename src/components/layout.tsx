@@ -15,60 +15,62 @@ export const siteTitle = "Martin Oxby | oxby.io";
 export default function Layout({ children, home, ...props }: LayoutProps) {
   return (
     <>
-      <div {...props} className={styles.container}>
-        <Head>
-          <link rel="icon" href="/favicon.ico" />
-          <meta name="description" content="Martin Oxby | oxby.io" />
-          <meta
-            property="og:image"
-            content="https://em-content.zobj.net/thumbs/320/apple/354/man-technologist_1f468-200d-1f4bb.png"
-          />
-          <meta name="og:title" content={siteTitle} />
-          <meta name="twitter:card" content="summary_large_image" />
-        </Head>
-        <header className={styles.header}>
-          {home ? (
-            <>
-              <Image
-                priority
-                src="/images/profile.jpg"
-                className={utilStyles.borderCircle}
-                height={144}
-                width={144}
-                alt="Martin"
-              />
-              <h1 className={utilStyles.heading2Xl}>
-                Hi, I&apos;m <b>Martin</b> 👋
-              </h1>
-            </>
-          ) : (
-            <>
-              <Link href="/">
+      <>
+        <div {...props} className={styles.container}>
+          <Head>
+            <link rel="icon" href="/favicon.ico" />
+            <meta name="description" content="Martin Oxby | oxby.io" />
+            <meta
+              property="og:image"
+              content="https://em-content.zobj.net/thumbs/320/apple/354/man-technologist_1f468-200d-1f4bb.png"
+            />
+            <meta name="og:title" content={siteTitle} />
+            <meta name="twitter:card" content="summary_large_image" />
+          </Head>
+          <header className={styles.header}>
+            {home ? (
+              <>
                 <Image
                   priority
                   src="/images/profile.jpg"
                   className={utilStyles.borderCircle}
-                  height={108}
-                  width={108}
-                  alt=""
+                  height={144}
+                  width={144}
+                  alt="Martin"
                 />
-              </Link>
-              <h2 className={utilStyles.headingLg}>
-                <Link href="/" className={utilStyles.colorInherit}>
+                <h1 className={utilStyles.heading2Xl}>
                   Hi, I&apos;m <b>Martin</b> 👋
+                </h1>
+              </>
+            ) : (
+              <>
+                <Link href="/">
+                  <Image
+                    priority
+                    src="/images/profile.jpg"
+                    className={utilStyles.borderCircle}
+                    height={108}
+                    width={108}
+                    alt=""
+                  />
                 </Link>
-              </h2>
-            </>
+                <h2 className={utilStyles.headingLg}>
+                  <Link href="/" className={utilStyles.colorInherit}>
+                    Hi, I&apos;m <b>Martin</b> 👋
+                  </Link>
+                </h2>
+              </>
+            )}
+          </header>
+          <main>{children}</main>
+          {!home && (
+            <div className={styles.backToHome}>
+              <Link href="/">← Back to home</Link>
+            </div>
           )}
-        </header>
-        <main>{children}</main>
-        {!home && (
-          <div className={styles.backToHome}>
-            <Link href="/">← Back to home</Link>
-          </div>
-        )}
+        </div>
         <footer className={styles.footer}>© 2023 🧑🏻‍💻</footer>
-      </div>
+      </>
     </>
   );
 }

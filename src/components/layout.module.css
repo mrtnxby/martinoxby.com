@@ -30,6 +30,9 @@
 }
 
 .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,6 +41,7 @@
 
 @media (max-width: 37.5rem) {
   .footer {
+    position: relative;
     padding: 2rem;
   }
 }
