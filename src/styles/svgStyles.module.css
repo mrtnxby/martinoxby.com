@@ -1,0 +1,7 @@
+.logoStyling {
+  fill: var(--color-text-link);
+}
+
+.logoStylingStroke {
+  stroke: var(--color-text-link);
+}
