@@ -1,9 +1,10 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import utilStyles from "@/styles/utils.module.css";
-import Layout, { siteTitle } from "@/components/Layout";
+
 import ThemeToggle from "@/components/ThemeToggle";
 import svgStyles from "@/styles/svgStyles.module.css";
+import Layout, { siteTitle } from "@/components/Layout";
 
 export default function Home() {
   return (
