@@ -5,7 +5,7 @@ import utilStyles from "@/styles/utils.module.css";
 import svgStyles from "@/styles/svgStyles.module.css";
 
 import ThemeToggle from "@/components/ThemeToggle";
-import Layout, { siteTitle } from "@/components/Layout";
+import Layout, { siteTitle } from "@/components/layout";
 
 export default function Home() {
   return (
