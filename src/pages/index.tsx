@@ -3,8 +3,9 @@ import styles from "@/styles/Home.module.css";
 import utilStyles from "@/styles/utils.module.css";
 
 import svgStyles from "@/styles/svgStyles.module.css";
-import Layout, { siteTitle } from "@/components/layout";
+
 import ThemeToggle from "@/components/ThemeToggle";
+import Layout, { siteTitle } from "@/components/Layout";
 
 export default function Home() {
   return (
