@@ -66,11 +66,13 @@ export default function Home() {
       <div className={styles.buttonContainer}>
         <a className={styles.button} href="https://github.com/mrtnxby">
           <svg
+            role="img"
             width="32"
             height="32"
             viewBox="0 0 98 96"
             xmlns="http://www.w3.org/2000/svg"
           >
+            <title>A Github logo that links to Martin&apos;s Github page</title>
             <path
               fillRule="evenodd"
               clipRule="evenodd"
@@ -84,6 +86,7 @@ export default function Home() {
           href="https://www.linkedin.com/in/martin-oxby/"
         >
           <svg
+            role="img"
             fill="currentColor"
             width="32"
             height="32"
@@ -93,6 +96,9 @@ export default function Home() {
             viewBox="0 0 310 310"
           >
             <g id="XMLID_801_">
+              <title>
+                A LinkedIn logo that links to Martin&apos;s LinkedIn page
+              </title>
               <path
                 className={svgStyles.logoStyling}
                 id="XMLID_802_"
@@ -113,12 +119,16 @@ export default function Home() {
         </a>
         <a className={styles.button} href="mailto:martin@oxby.io">
           <svg
+            role="img"
             fill="none"
             width="32"
             height="32"
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
+            <title>
+              An email icon that allows you to send Martin an email when clicked
+            </title>
             <path
               className={svgStyles.logoStylingStroke}
               stroke="currentColor"
