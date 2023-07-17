@@ -10,7 +10,7 @@ interface LayoutProps {
   home?: boolean;
 }
 
-export const siteTitle = "Martin Oxby | oxby.io";
+export const siteTitle = "Martin Oxby | martinoxby.com";
 
 export default function Layout({ children, home, ...props }: LayoutProps) {
   return (
@@ -18,7 +18,7 @@ export default function Layout({ children, home, ...props }: LayoutProps) {
       <div {...props} className={styles.container}>
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <meta name="description" content="Martin Oxby | oxby.io" />
+          <meta name="description" content="Martin Oxby | martinoxby.com" />
           <meta
             property="og:image"
             content="https://em-content.zobj.net/thumbs/320/apple/354/man-technologist_1f468-200d-1f4bb.png"
