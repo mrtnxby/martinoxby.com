@@ -1,13 +1,19 @@
-### <a href="https://www.martinoxby.com/">martinoxby.com</a>
+## martinoxby.com
 
-A personal website to show what I do 🧑🏻‍💻
+A personal website built with Next.js and hosted at <a href="https://www.martinoxby.com/">martinoxby.com</a> to showcase what I do for a living 🧑🏻‍💻
 
-## Starting the app
+## Starting the App
 
-Install all dependencies, build the application and run it locally.
+Install all dependencies and build the application:
 
 ```sh
-yarn && yarn build && yarn dev
+yarn && yarn build
+```
+
+Then run the following to run the application locally:
+
+```sh
+yarn dev
 ```
 
 Then open <a href="http://localhost:3000">localhost:3000</a> in your browser of choice.
