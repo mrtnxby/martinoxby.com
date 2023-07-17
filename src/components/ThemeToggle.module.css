@@ -48,4 +48,8 @@
   .themeToggleContainer {
     padding: 1rem;
   }
+
+  .themeToggleButton {
+    padding: 0;
+  }
 }
