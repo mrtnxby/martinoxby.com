@@ -6,7 +6,7 @@
   margin: 1rem 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 28.125rem) {
   .heading2Xl {
     font-size: 2rem;
   }
@@ -33,7 +33,7 @@
 
 .borderCircle {
   border-radius: 50%;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
 }
 
 .colorInherit {

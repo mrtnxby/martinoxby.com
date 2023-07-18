@@ -1,6 +1,6 @@
 ## martinoxby.com
 
-A personal website built with Next.js and hosted at <a href="https://www.martinoxby.com/">martinoxby.com</a> to showcase what I do for a living 🧑🏻‍💻
+A personal website built with Next.js and hosted at <a href="https://martinoxby.com/">martinoxby.com</a> to showcase what I do for a living 🧑🏻‍💻
 
 ## Starting the App
 

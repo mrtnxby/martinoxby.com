@@ -9,9 +9,9 @@
 }
 
 .themeToggleButton {
-  --toggle-width: 80px;
-  --toggle-height: 38px;
-  --toggle-padding: 4px;
+  --toggle-width: 5rem;
+  --toggle-height: 2.375rem;
+  --toggle-padding: 0.25rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -44,7 +44,7 @@
   transform: translateX(calc(var(--toggle-width) - var(--toggle-height)));
 }
 
-@media (max-width: 450px) {
+@media (max-width: 28.125rem) {
   .themeToggleContainer {
     padding: 1rem;
   }

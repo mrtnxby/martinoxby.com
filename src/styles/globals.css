@@ -2,7 +2,7 @@ html {
 }
 
 ::selection {
-  background: #9b59b6;
+  background: var(--color-selection-highlight);
 }
 
 body {
@@ -31,6 +31,7 @@ body[data-theme="light"] {
   --color-text-primary: #263238;
   --color-text-bold: #008000;
   --color-text-link: #9400d3;
+  --color-selection-highlight: #ffd700;
   --color-bg-primary: #cfd8dc;
   --color-bg-toggle: linear-gradient(#87ceeb, #457fca);
 }
@@ -39,6 +40,7 @@ body[data-theme="dark"] {
   --color-text-primary: #cfd8dc;
   --color-text-bold: #ff8c00;
   --color-text-link: #ffd700;
+  --color-selection-highlight: #9400d3;
   --color-bg-primary: #263238;
   --color-bg-toggle: linear-gradient(#804e9c, #6f99a8);
 }

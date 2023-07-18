@@ -6,10 +6,12 @@ import svgStyles from "@/styles/svgStyles.module.css";
 
 import ThemeToggle from "@/components/ThemeToggle";
 import Layout, { siteTitle } from "@/components/layout";
+import EmailHeader from "@/components/EmailHeader";
 
 export default function Home() {
   return (
     <Layout home>
+      <EmailHeader />
       <ThemeToggle />
       <Head>
         <title>{siteTitle}</title>
@@ -117,7 +119,7 @@ export default function Home() {
             </g>
           </svg>
         </a>
-        <a className={styles.button} href="mailto:martin@oxby.io">
+        <a className={styles.button} href="mailto:hello@martinoxby.com">
           <svg
             role="img"
             fill="none"
