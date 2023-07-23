@@ -10,7 +10,9 @@
     "start": "next start",
     "lint": "next lint",
     "check:ts": "tsc --noEmit",
-    "prettier": "prettier . --write"
+    "prettier": "prettier . --write",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "dependencies": {
     "@svgr/core": "^8.0.0",
@@ -26,7 +28,10 @@
     "typescript": "5.0.2"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^9.0.0",
+    "cypress": "^12.17.2",
     "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-cypress": "^2.13.3",
     "eslint-plugin-prettier": "^5.0.0",
     "prettier": "3.0.0"
   }

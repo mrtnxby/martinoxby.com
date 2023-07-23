@@ -17,3 +17,23 @@ yarn dev
 ```
 
 Then open <a href="http://localhost:3000">localhost:3000</a> in your browser of choice.
+
+## Running Tests
+
+Run the application locally:
+
+```sh
+yarn && yarn build && yarn dev
+```
+
+To run the tests in the Cypress UI:
+
+```sh
+yarn cypress open
+```
+
+To run them in your terminal:
+
+```sh
+yarn cypress run
+```
