@@ -12,7 +12,7 @@ interface LayoutProps {
 
 export const siteTitle = "Martin Oxby | martinoxby.com";
 
-export default function Layout({ children, home, ...props }: LayoutProps) {
+const Layout = ({ children, home, ...props }: LayoutProps) => {
   return (
     <>
       <div {...props} className={styles.container}>
@@ -70,4 +70,6 @@ export default function Layout({ children, home, ...props }: LayoutProps) {
       <footer className={styles.footer}>© 2023 🧑🏻‍💻</footer>
     </>
   );
-}
+};
+
+export default Layout;

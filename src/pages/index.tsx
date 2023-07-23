@@ -8,7 +8,7 @@ import ThemeToggle from "@/components/ThemeToggle";
 import Layout, { siteTitle } from "@/components/layout";
 import EmailHeader from "@/components/EmailHeader";
 
-export default function Home() {
+const Home = () => {
   return (
     <Layout home>
       <EmailHeader />
@@ -144,4 +144,6 @@ export default function Home() {
       </div>
     </Layout>
   );
-}
+};
+
+export default Home;
