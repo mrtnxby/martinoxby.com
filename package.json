@@ -15,24 +15,24 @@
     "cypress:run": "cypress run"
   },
   "dependencies": {
-    "@svgr/core": "^8.0.0",
-    "@types/node": "18.15.3",
-    "@types/react": "18.0.28",
-    "@types/react-dom": "18.0.11",
-    "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4",
-    "next": "13.2.4",
+    "@svgr/core": "^8.1.0",
+    "@types/node": "20.6.0",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "sharp": "^0.32.2",
-    "typescript": "5.0.2"
+    "sharp": "^0.32.5",
+    "typescript": "5.2.2"
   },
   "devDependencies": {
     "@testing-library/cypress": "^9.0.0",
-    "cypress": "^12.17.2",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-cypress": "^2.13.3",
+    "cypress": "^13.1.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-cypress": "^2.14.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "prettier": "3.0.0"
+    "prettier": "3.0.3"
   }
 }
