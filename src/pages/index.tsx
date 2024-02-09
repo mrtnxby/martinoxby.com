@@ -56,7 +56,6 @@ const Home = () => {
           I began my career in QA and learned to code at work and in my spare
           time, supported by my friends and colleagues.
         </p>
-        <p>I&apos;ve been professionally coding since Feb 2022.</p>
         <p>
           <b>I work with</b>:{" "}
           <i>
