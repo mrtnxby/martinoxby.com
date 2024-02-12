@@ -1,12 +1,12 @@
-import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import utilStyles from "@/styles/utils.module.css";
+import Head from "next/head";
 
 import svgStyles from "@/styles/svgStyles.module.css";
 
+import EmailHeader from "@/components/EmailHeader";
 import ThemeToggle from "@/components/ThemeToggle";
 import Layout, { siteTitle } from "@/components/layout";
-import EmailHeader from "@/components/EmailHeader";
 
 const Home = () => {
   return (
@@ -48,8 +48,12 @@ const Home = () => {
           <a href="https://zoa.io">Zoa</a>.
         </p>
         <p>
-          Previously, I worked at <a href="https://bulb.co.uk">Bulb</a>, a
-          renewable energy supplier with a mission to lower bills and reduce CO
+          Previously, I worked at{" "}
+          <a href="https://web.archive.org/web/20230410054502/https://bulb.co.uk/">
+            Bulb
+          </a>
+          , a renewable energy supplier with a mission to lower bills and reduce
+          CO
           <sub>2</sub>.
         </p>
         <p>

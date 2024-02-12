@@ -24,7 +24,11 @@ describe("Homepage Smoke Test", () => {
 
     cy.findByText("Bulb")
       .should("be.visible")
-      .and("have.attr", "href", "https://bulb.co.uk");
+      .and(
+        "have.attr",
+        "href",
+        "https://web.archive.org/web/20230410054502/https://bulb.co.uk/",
+      );
 
     cy.findByRole("link", {
       name: "A Github logo that links to Martin's Github page",
@@ -44,6 +48,6 @@ describe("Homepage Smoke Test", () => {
       .should("be.visible")
       .and("have.attr", "href", "mailto:hello@martinoxby.com");
 
-    cy.findByText("© 2023 🧑🏻‍💻").should("be.visible");
+    cy.findByText("© 2024 🧑🏻‍💻").should("be.visible");
   });
 });
