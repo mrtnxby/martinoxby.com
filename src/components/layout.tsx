@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "./layout.module.css";
-import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 import { ReactNode } from "react";
+import utilStyles from "../styles/utils.module.css";
+import styles from "./layout.module.css";
 
 interface LayoutProps {
   children: ReactNode;
@@ -67,7 +67,7 @@ const Layout = ({ children, home, ...props }: LayoutProps) => {
           </div>
         )}
       </div>
-      <footer className={styles.footer}>© 2023 🧑🏻‍💻</footer>
+      <footer className={styles.footer}>© 2024 🧑🏻‍💻</footer>
     </>
   );
 };
