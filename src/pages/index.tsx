@@ -43,33 +43,32 @@ const Home = () => {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          I&apos;m a software engineer based in London, UK. Currently, I&apos;m
-          helping energy companies become consumer companies at{" "}
-          <a href="https://zoa.io">Zoa</a>.
-        </p>
-        <p>
-          Previously, I worked at{" "}
-          <a href="https://web.archive.org/web/20230410054502/https://bulb.co.uk/">
-            Bulb
+          I&apos;m a software engineer based in Lincoln, UK. Currently, I&apos;m
+          helping solve renewable energy challenges at{" "}
+          <a href="https://www.eonnext.com/" rel="noopener noreferrer">
+            E.ON Next
           </a>
-          , a renewable energy supplier with a mission to lower bills and reduce
-          CO
-          <sub>2</sub>.
+          .
         </p>
         <p>
-          I began my career in QA and learned to code at work and in my spare
-          time, supported by my friends and colleagues.
+          I began my career in QA as a manual tester and learned to code at work
+          and in my spare time, becoming a QA engineer and then a software
+          engineer.
         </p>
         <p>
           <b>I work with</b>:{" "}
           <i>
-            React, JavaScript/TypeScript, Node.js, Next.js, HTML5, CSS, Styled
-            Components, Prisma, Jest, and more...
+            React, JavaScript/TypeScript, Node.js, Next.js, HTML5, CSS,
+            Playwright, Jest, and more...
           </i>
         </p>
       </section>
       <div className={styles.buttonContainer}>
-        <a className={styles.button} href="https://github.com/mrtnxby">
+        <a
+          className={styles.button}
+          href="https://github.com/mrtnxby"
+          rel="noopener noreferrer"
+        >
           <svg
             role="img"
             width="32"
@@ -89,6 +88,7 @@ const Home = () => {
         <a
           className={styles.button}
           href="https://www.linkedin.com/in/martin-oxby/"
+          rel="noopener noreferrer"
         >
           <svg
             role="img"

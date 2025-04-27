@@ -66,8 +66,8 @@ const Layout = ({ children, home, ...props }: LayoutProps) => {
             <Link href="/">← Back to home</Link>
           </div>
         )}
+        <footer className={styles.footer}>© 2025 🧑🏻‍💻</footer>
       </div>
-      <footer className={styles.footer}>© 2024 🧑🏻‍💻</footer>
     </>
   );
 };

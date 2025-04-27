@@ -2,7 +2,7 @@ describe("Homepage Smoke Test", () => {
   it("should check the buttons and links on the homepage", () => {
     cy.visit("/");
 
-    cy.findByText("hello@martinoxby.com")
+    cy.findByRole("link", { name: "hello@martinoxby.com" })
       .should("be.visible")
       .and("have.attr", "href", "mailto:hello@martinoxby.com");
 
@@ -11,24 +11,16 @@ describe("Homepage Smoke Test", () => {
     cy.findByText("☀️").should("be.visible");
 
     cy.findByRole("img", { name: "Martin's profile picture" }).should(
-      "be.visible",
+      "be.visible"
     );
 
     cy.findByRole("heading", { name: "Hi, I'm Martin 👋" }).should(
-      "be.visible",
+      "be.visible"
     );
 
-    cy.findByText("Zoa")
+    cy.findByRole("link", { name: "E.ON Next" })
       .should("be.visible")
-      .and("have.attr", "href", "https://zoa.io");
-
-    cy.findByText("Bulb")
-      .should("be.visible")
-      .and(
-        "have.attr",
-        "href",
-        "https://web.archive.org/web/20230410054502/https://bulb.co.uk/",
-      );
+      .and("have.attr", "href", "https://www.eonnext.com/");
 
     cy.findByRole("link", {
       name: "A Github logo that links to Martin's Github page",
@@ -48,6 +40,6 @@ describe("Homepage Smoke Test", () => {
       .should("be.visible")
       .and("have.attr", "href", "mailto:hello@martinoxby.com");
 
-    cy.findByText("© 2024 🧑🏻‍💻").should("be.visible");
+    cy.findByText("© 2025 🧑🏻‍💻").should("be.visible");
   });
 });
